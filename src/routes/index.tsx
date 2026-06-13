@@ -183,8 +183,8 @@ function Hero() {
       span: "col-span-2 row-span-2",
     },
     {
-      src: "https://images.unsplash.com/photo-1664575602554-2087b04935a5?auto=format&fit=crop&w=700&q=80",
-      alt: "Professional consultation",
+      src: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=700&q=80",
+      alt: "Calculator and ledger on desk",
       rotate: 0,
       offset: "",
       span: "col-span-2 row-span-1",
