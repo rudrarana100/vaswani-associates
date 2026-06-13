@@ -284,20 +284,6 @@ function Hero() {
                 <img src={img.src} alt={img.alt} className="h-full w-full object-cover" />
               </motion.div>
             ))}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.9 }}
-              className="absolute -bottom-5 -left-4 flex items-center gap-3 rounded-xl bg-surface px-4 py-3 shadow-[0_10px_30px_-12px_rgba(15,14,19,0.25)] ring-1 ring-border"
-            >
-              <div className="grid h-9 w-9 place-items-center rounded-full bg-violet-soft">
-                <Sparkles className="h-4 w-4 text-violet" />
-              </div>
-              <div className="leading-tight">
-                <div className="font-serif text-base text-ink">5.0 Google Rating</div>
-                <div className="text-[11px] text-ink-soft">30 verified reviews</div>
-              </div>
-            </motion.div>
           </div>
         </div>
       </div>
