@@ -35,8 +35,8 @@
   --color-violet-deep: var(--violet-deep);
   --color-trust: var(--trust);
   --color-surface: var(--surface);
-  --font-serif: "DM Serif Display", ui-serif, Georgia, serif;
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Instrument Serif", ui-serif, Georgia, serif;
+  --font-sans: "Inter Tight", "Inter", ui-sans-serif, system-ui, sans-serif;
 }
 
 :root {
@@ -88,14 +88,14 @@
   }
   h1, h2, h3 {
     font-family: var(--font-serif);
-    letter-spacing: -0.02em;
+    letter-spacing: -0.015em;
     font-weight: 400;
   }
 }
 
 @utility font-serif {
   font-family: var(--font-serif);
-  letter-spacing: -0.02em;
+  letter-spacing: -0.015em;
 }
 
 @utility dot-grid {
